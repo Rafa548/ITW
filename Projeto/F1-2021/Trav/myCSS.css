@@ -1,0 +1,212 @@
+﻿body {
+    font-family: 'Audiowide', cursive;
+    margin: 70px 0 70px 0;
+    background-color: black;
+}
+.color-me {
+    color: red;
+}
+
+.c-color {
+    background-color: black;
+} 
+
+.color-ss {
+    color: yellow;
+}
+.color-rr {
+    color:orange;
+}
+.color-cc{
+    color:orchid;
+}
+.color-b{
+    color:black;
+}
+
+.page-item.active .page-link {
+    color: black !important;
+    background: red !important;
+    border-color: red;
+}
+.page-item .page-link {
+    color: black !important;
+}
+
+.bdr {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Audiowide', cursive;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.padded {
+    padding: 100px 0;
+}
+
+.wrapper-grey {
+    background: #F4F4F4;
+}
+
+.avatar {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.avatar-bordered {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    border: white 1px solid;
+}
+
+.avatar-large {
+    width: 50px;
+}
+.card {
+    height: 250px;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card-user {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.card-category {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    text-shadow: black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.card-description {
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+}
+
+    .card-description h2 {
+        text-shadow: black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px;
+        -webkit-font-smoothing: antialiased;
+        font-size: 18px;
+    }
+
+    .card-description p {
+        font-size: 17px;
+        text-shadow: black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px, black 0px 0px 1px;
+        -webkit-font-smoothing: antialiased;
+    }
+
+.card-link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    background: black;
+    opacity: 0;
+}
+
+    .card-link:hover {
+        opacity: 0.3;
+    }
+
+.features img {
+    width: 100px;
+}
+
+.features h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.features p {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+/*NavBar*/
+.nav-link:hover {
+    color: red;
+}
+  
+
+.tcolor {
+    color: white;
+}
+
+
+.nav-link:hover {
+    color: red;
+}
+.active {
+    color: red !important;
+}
+
+.nav li {
+    position: relative;
+}
+
+nav li a::before {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: darkred;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 400ms;
+}
+
+nav li a:hover::before {
+    width: 100%;
+}
+
+
+.procura {
+    color: red;
+}
+
+.btn {
+    outline-color: red
+}
+
+.user {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user2 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+.active{
+    color: red !important;
+}
+.active2 {
+    color: red !important;
+    background-color: black !important;
+}
+

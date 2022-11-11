@@ -1,0 +1,387 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>F1 2021</title>
+    <!-- <link href="https://blogfonts.com/css/aWQ9MTUxNTEzJnN1Yj01MTMmYz1mJnR0Zj1Gb3JtdWxhMS1SZWd1bGFyX3dlYl8wLnR0ZiZuPWZvcm11bGExLWRpc3BsYXktcmVndWxhci0y/Formula1 Display Regular.ttf" rel="stylesheet" type="text/css"/> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="Global.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-black fixed-top ms-auto">
+        <div class="container-fluid" style="width:90%">
+
+            <a class="navbar-brand" href="index1.html">
+                <img alt="logo" class="logo" src="https://logodownload.org/wp-content/uploads/2016/11/formula-1-logo-5-3.png" style="width:60px" />
+            </a>
+
+            <button class="navbar-toggler navbar-light border-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link tcolor" aria-current="page" href="drivers.html">Drivers</a></li>
+                    <li class="nav-item"><a class="nav-link tcolor" href="constructors.html">Teams</a></li>
+                    <li class="nav-item"><a class="nav-link tcolor" href="circuit.html">Circuits</a></li>
+                    <li class="nav-item"><a class="nav-link tcolor" href="country.html">Countries</a></li>
+                    <li class="nav-item"><a class="nav-link tcolor" href="season.html">Seasons</a></li>
+                    <li class="nav-item"><a class="nav-link tcolor" href="race.html">Races</a></li>
+                    <li class="nav-item"><a class="nav-link tcolor" href="nationalities.html">Nationalities</a></li>
+                    <li class="nav-item dropdown tcolor">
+                        <a class="nav-link dropdown-toggle tcolor" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Champions
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark bg-black tcolor border-dark" aria-labelledby="navbarDropdown">
+                            <li class="dark "><a class="dropdown-item" href="Champions.html">Drivers</a></li>
+                            <li><a class="dropdown-item" href="CChampions.html">Teams</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="d-flex">
+                    <input class="form-control me-2 border-danger shadow-none border-3" type="search" placeholder="Search" aria-label="Search" data-bind="textInput: searchall" id="SearchVal" autocomplete="off">
+                    <a id="searchButton" class="btn btn-outline-danger procura" data-bind="attr: { href: './searchall.html?q=' + searchall() }">Search</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!--NAVBAR-->
+    <!----------------------------------------------Carrousel------------------------------------->
+    <div id="carouselExample" class="carousel slide carousel-fade mb-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="notban">Verstappen praises 'amazing driver' Hamilton after winning title showdown against 7-time champion</h3>
+                    <p class="notban">F1 - The Official Home of Formula 1 Racing</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Mercedes’ stance on Lewis Hamilton future explained as F1 retirement rumours rumble on</h3>
+                    <p>Express</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Títulos do Mundial de Fórmula 1 decidem-se na última prova após vitória de Hamilton no emocionante GP da Arábia Saudita - Motores - SAPO Desporto</h5>
+                    <p>SAPO Desporto</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Hamilton bate Verstappen e adia título de campeão mundial de Fórmula 1</h5>
+                    <p>TSF</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--------------------------------------------------------------------------------------------------------------->
+    <!--Standings-->
+    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active bg-dark tcolor" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true" style="font-size: 26px">Drivers</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link tcolor bg-dark" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false" style="font-size: 26px">Constructors</button>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="standingbg py-5">
+                <div class="d-flex flex-column">
+                    <div class="border-bottom-0 h1 font-weight-light text-light text-center">
+                        2021 Top 3
+                    </div>
+                    <div class="card-group">
+                        <div class="row">
+                            <div class="container col-md-4 col-sm-6 col-12 py-1">
+                                <div class="card card2">
+                                    <div class="imgBx">
+                                        <img src="https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/homepage/driver-standings-component/LEWHAM01.png.transform/4col/image.png">
+                                    </div>
+                                    <div class="contentBx">
+                                        <h2 class="destaqueletter">Lewis Hamilton</h2>
+                                        <div class="size">
+                                            <h3 class="destaqueletter">Nationality :</h3>
+                                            <span class="pb-2"><img style="width: 25px;" src="https://seeklogo.com/images/U/united-kingdom-flag-logo-1088704B5E-seeklogo.com.png" /></span>
+                                        </div>
+                                        <div class="color">
+                                            <h3 class="destaqueletter">Team :</h3>
+                                            <span class="text-light destaqueletter pb-2">Mercedes</span>
+                                        </div>
+                                        <div class="color">
+                                            <h3 class="destaqueletter">Points :</h3>
+                                            <span style="background-color: #00d2be" class="text-light destaqueletter border rounded-1 d-inline-block mr-2 mb-1 p-1">387.5</span>
+                                        </div>
+                                        <a href="driverDetails.html?id=1">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container col-md-4 col-sm-6 col-12 py-1">
+                                <div class="card card1">
+                                    <div class="imgBx">
+                                        <img src="https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/homepage/driver-standings-component/MAXVER01.png.transform/4col/image.png">
+                                    </div>
+                                    <div class="contentBx">
+                                        <h2 class="destaqueletter">Max Verstappen</h2>
+                                        <div class="size">
+                                            <h3 class="destaqueletter">Nationality :</h3>
+                                            <span class="pb-2"><img style="width: 25px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/2560px-Flag_of_the_Netherlands.svg.png" /></span>
+                                        </div>
+                                        <div class="color">
+                                            <h3 class="destaqueletter">Team :</h3>
+                                            <span class="text-light destaqueletter pb-2">Red Bull</span>
+                                        </div>
+                                        <div class="color">
+                                            <h3 class="destaqueletter">Points :</h3>
+                                            <span style="background-color: #0600ef" class="text-light destaqueletter border rounded-1 d-inline-block mr-2 mb-1 p-1">395.5</span>
+                                        </div>
+                                        <a href="driverDetails.html?id=830">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container col-md-4 col-sm-6 col-12 py-1">
+                                <div class="card card3">
+                                    <div class="imgBx">
+                                        <img src="https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/homepage/driver-standings-component/VALBOT01.png.transform/4col/image.png">
+                                    </div>
+                                    <div class="contentBx">
+                                        <h2 class="destaqueletter">Valtteri Bottas</h2>
+                                        <div class="size">
+                                            <h3 class="destaqueletter">Nationality :</h3>
+                                            <span class="pb-2"><img style="width: 25px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/800px-Flag_of_Finland.svg.png" /></span>
+                                        </div>
+                                        <div class="color">
+                                            <h3 class="destaqueletter">Team :</h3>
+                                            <span class="text-light destaqueletter pb-2">Mercedes</span>
+                                        </div>
+                                        <div class="color">
+                                            <h3 class="destaqueletter">Points :</h3>
+                                            <span style="background-color: #00d2be" class="text-light destaqueletter border rounded-1 d-inline-block mr-2 mb-1 p-1">226</span>
+                                        </div>
+                                        <a href="driverDetails.html?id=822">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="standingbg py-5">
+                <div class="d-flex flex-column">
+                    <div class="border-bottom-0 h1 font-weight-light text-light text-center">
+                        2021 Top 3
+                    </div>
+                    <div class="card-group">
+                        <div class="row">
+                            <div class="container col-md-4 col-sm-6 col-12 py-1">
+                                <div class="card card21">
+                                    <div class="imgBx">
+                                        <img src="https://www.formula1.com/content/fom-website/en/teams/Red-Bull-Racing/_jcr_content/teamCar.transform/3col/image.png">
+                                    </div>
+                                    <div class="contentBx">
+                                        <h2 class="destaqueletter">Red Bull</h2>
+                                        <div class="size">
+                                            <h3 class="destaqueletter">Nationality :</h3>
+                                            <span class="pb-2"><img style="width: 25px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/1024px-Flag_of_Austria.svg.png" /></span>
+                                        </div>
+                                        <div class="color">
+                                            <h3 class="destaqueletter">Points :</h3>
+                                            <span style="background-color: #0600ef" class="text-light destaqueletter border rounded-1 d-inline-block mr-2 mb-1 p-1">585.5</span>
+                                        </div>
+                                        <a href="constructorsDetails_apres.html?id=9">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container col-md-4 col-sm-6 col-12 py-1">
+                                <div class="card card11">
+                                    <div class="imgBx">
+                                        <img src="https://www.formula1.com/content/fom-website/en/teams/Mercedes/_jcr_content/teamCar.transform/3col/image.png">
+                                    </div>
+                                    <div class="contentBx">
+                                        <h2 class="destaqueletter">Mercedes</h2>
+                                        <div class="size">
+                                            <h3 class="destaqueletter">Nationality :</h3>
+                                            <span class="pb-2"><img style="width: 25px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png" /></span>
+                                        </div>
+                                        <div class="color">
+                                            <h3 class="destaqueletter">Points :</h3>
+                                            <span style="background-color: #00d2be" class="text-light destaqueletter border rounded-1 d-inline-block mr-2 mb-1 p-1">613.5</span>
+                                        </div>
+                                        <a href="constructorsDetails_apres.html?id=131">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container col-md-4 col-sm-6 col-12 py-1">
+                                <div class="card card31">
+                                    <div class="imgBx">
+                                        <img src="https://www.formula1.com/content/fom-website/en/teams/Ferrari/_jcr_content/teamCar.transform/3col/image.png">
+                                    </div>
+                                    <div class="contentBx">
+                                        <h2 class="destaqueletter">Ferrari</h2>
+                                        <div class="size">
+                                            <h3 class="destaqueletter">Nationality :</h3>
+                                            <span class="pb-2"><img style="width: 25px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2560px-Flag_of_Italy.svg.png" /></span>
+                                        </div>
+                                        <div class="color">
+                                            <h3 class="destaqueletter">Points :</h3>
+                                            <span style="background-color: #dc0000" class="text-light destaqueletter border rounded-1 d-inline-block mr-2 mb-1 p-1">325.5</span>
+                                        </div>
+                                        <a href="constructorsDetails_apres.html?id=6">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------->
+    <!------------Video------------------------------------->
+
+
+    <div class="border-bottom-0 h1 font-weight-light text-light text-center">
+        Highlights 2021
+    </div>
+    <div class="mb-5" style="margin: auto; ">
+        <video loop muted autoplay class="fullscreen-video">
+            <source src="videoplayback.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!---------------------------------------------------->
+    <!--------Patrocinios-------->
+    <div class="apps">
+        <div class="container">
+            <div class="row">
+                <div class="col-2 p-0">
+                    <p class="center lh-1 m-0 text-light">
+                        DOWNLOAD THE <br /> OFFICIAL F1 APP
+                    </p>
+                </div>
+                <div class="col-6 p-0" style="margin-left: -40px">
+                    <a href="https://play.google.com/store/apps/details?id=com.softpauer.f1timingapp2014.basic&hl=en_GB">
+                        <img class="f1app" src="https://www.formula1.com/etc/designs/fom-website/images/svg/google-play-badge.svg" />
+                    </a>
+                    <a href="https://apps.apple.com/gb/app/official-f1-app/id835022598">
+                        <img class="f1app" src="https://www.formula1.com/etc/designs/fom-website/images/svg/download-on-the-app-store-apple.svg" />
+                    </a>
+                </div>
+                <div class="col-4 text-end">
+                    <a href="https://www.facebook.com/Formula1">
+                        <i style="font-size: 50px;" class="fa fa-facebook-square iconcolor"></i>
+                    </a>
+                    <a href="https://twitter.com/f1">
+                        <i style="font-size: 50px" class="fa fa-twitter-square iconcolor"></i>
+                    </a>
+                    <a href="https://www.instagram.com/f1/">
+                        <i style="font-size: 50px" class="fa fa-instagram iconcolor"></i>
+                    </a>
+                    <a href="https://www.youtube.com/F1">
+                        <i style="font-size: 50px" class="fa fa-youtube-play iconcolor"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="p-4">
+        <div class="d-flex flex-column">
+            <div class="border-bottom-0 h1 font-weight-light text-light text-center">
+                Partners
+            </div>
+            <div class="card-group">
+                <div class="mb-5" style="margin: auto;">
+                    <a href="https://www.rolex.com/en-us">
+                        <img class="imgpatro" src="https://www.formula1.com/content/dam/fom-website/2020/sponsors/rolex.png" />
+                    </a>
+                    <a href="https://inmotion.dhl/en/formula-1/?utm_content=DHL-F1&utm_source=f1&utm_medium=website&utm_campaign=DHL-F1">
+                        <img class="imgpatro" src="https://www.formula1.com/content/dam/fom-website/2020/sponsors/dhl.png" />
+                    </a>
+                    <a href="https://www.aramco.com/">
+                        <img class="imgpatro" src="https://www.formula1.com/content/dam/fom-website/2020/sponsors/aramco.png" />
+                    </a>
+                    <a href="https://www.pirelli.com/tyres/en-ww/motorsport/f1/tyres?utm_source=formula1.com&utm_medium=referral&utm_campaign=ww_motorsport_f1&utm_content=homepage">
+                        <img class="imgpatro" src="https://www.formula1.com/content/dam/fom-website/2020/sponsors/pirelli.png" />
+                    </a>
+                    <a href="https://www.emirates.com/pt/portuguese/">
+                        <img class="imgpatro" src="https://www.formula1.com/content/dam/fom-website/2020/sponsors/emirates.png" />
+                    </a>
+                    <a href="https://crypto.com/eea/">
+                        <img class="imgpatro" src="https://www.formula1.com/content/dam/fom-website/2020/sponsors/crypto.com.png" />
+                    </a>
+                    <a href="https://www.heineken.com/pt/pt/agegateway?returnurl=%2f">
+                        <img class="imgpatro" src="https://www.formula1.com/content/dam/fom-website/2020/sponsors/heineken.png" />
+                    </a>
+                </div>
+                <hr class="my-2" style="color: white; width: 95%; margin: auto" />
+                <div style="margin: auto">
+                    <a href="https://www.drivecoffee.com/">
+                        <img style="width:220px" src="https://www.formula1.com/content/dam/fom-website/2020/sponsors/aws.png" />
+                    </a>
+                    <a href="https://aws.amazon.com/pt/free/?trk=ps_a134p000003yhd3AAA&trkCampaign=acq_paid_search_brand&sc_channel=ps&sc_campaign=acquisition_IBERIA&sc_publisher=google&sc_category=core-main&sc_country=IBERIA&sc_geo=EMEA&sc_outcome=Acquisition&sc_detail=aws&sc_content=Brand_Core_aws_e&sc_matchtype=e&sc_segment=455709741510&sc_medium=ACQ-P|PS-GO|Brand|Desktop|SU|Core-Main|Core|IBERIA|EN|Text&s_kwcid=AL!4422!3!455709741510!e!!g!!aws&ef_id=Cj0KCQiA6NOPBhCPARIsAHAy2zDHy751rdsvwx178yjLQczLorhp6VRkizOf6HB7c3KS3XAXnmoAoLoaAlNmEALw_wcB:G:s&s_kwcid=AL!4422!3!455709741510!e!!g!!aws&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all">
+                        <img style="width:220px" src="https://www.formula1.com/content/dam/fom-website/2020/sponsors/liqui-moly.png" />
+                    </a>
+                    <a href="https://www.liqui-moly.com/pt/pt/">
+                        <img style="width:220px" src="https://www.formula1.com/content/dam/fom-website/2020/sponsors/expo.png" />
+                    </a>
+                    <a href="https://www.bwt-wam.com/en/?Country=PT">
+                        <img style="width:220px" src="https://www.formula1.com/content/dam/fom-website/2020/sponsors/amg.png" />
+                    </a>
+                    <a href="https://www.ferrari.com/en-PT">
+                        <img style="width:220px" src="https://www.formula1.com/content/dam/fom-website/2020/sponsors/cat.png" />
+                    </a>
+                    <a href="https://www.188bet.com/en-gb/forbidden">
+                        <img style="width:220px" src="https://www.formula1.com/content/dam/fom-website/2020/sponsors/188.png" />
+                    </a>
+                    <a href="https://zoom.us/">
+                        <img style="width:220px" src="https://www.formula1.com/content/dam/fom-website/2020/sponsors/citi.png" />
+                    </a>
+                    <a href="https://www.herjavecgroup.com/">
+                        <img style="width:220px" src="https://www.formula1.com/content/dam/fom-website/2020/sponsors/petronas.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------->
+    <!--SCRIPT-->
+    <script src="../Scripts/bootstrap.bundle.min.js"></script>
+    <script src="../Scripts/knockout-3.5.1.js"></script>
+    <script src="../Scripts/jquery-3.6.0.min.js"></script>
+    <script src="Index_Bar.js"></script>
+    <!--SCRIPT-->
+
+</body>
+</html>
